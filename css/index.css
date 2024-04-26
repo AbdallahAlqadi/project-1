@@ -42,7 +42,7 @@ transform: scale(1.1);
 
 #navbar{
 
-    width: 1560px;
+    width: 1580px;
     margin-left: 10px;
     
 }
@@ -81,14 +81,16 @@ background-color: rgb(136, 127, 255);
 
 
 /*footer*/
-.text-white{
- width: 1560px;;
-right: 40px;
-
-}
-.my-5{
-    margin-left: 6px;
-    height: 2px;
-
+.border-light{
+    width: 1580px;
+   padding-right: 50px;
 }
 
+.border-light-subtle{
+    width: 1580px;
+
+}
+.btn-primary{
+
+    width: 200px;
+}
