@@ -21,7 +21,6 @@ form1.addEventListener('submit',function(e){
     localStorage.setItem('Data', JSON.stringify(alluser));
 
 
-
 });
 
 
