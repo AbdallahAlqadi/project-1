@@ -127,6 +127,8 @@ background-color: rgb(136, 127, 255);
 }
 .carousel-control-prev-icon{
     margin-left: -250px;
+
+
 }
 .carousel-inner{
     margin-top: 110px;
@@ -222,9 +224,21 @@ transition: 1ms;
     margin-left: -160px;
 }
 #next{
-    margin-top: 170px;
+     margin-top: 170px;
   
 }
+
+.revers{
+
+    margin-top: 170px;
+   
+ }
+ .next{
+      margin-top: 170px;
+   
+ }
+
+
 #card1{
     left:27px
 
