@@ -133,6 +133,14 @@ background-color: rgb(136, 127, 255);
     height: 240px;
     margin-left: 15px;
     margin-top: 10px;
+    
+}
+.card-img-top:hover{
+    -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .card{
@@ -143,6 +151,7 @@ background-color: rgb(136, 127, 255);
   margin-bottom: 20px;
   font-weight: lighter;
   margin-left: 468px;
+  color: rgb(6, 163, 6);
 }
 #catalog2{
     margin-bottom: 80px;
@@ -150,9 +159,7 @@ background-color: rgb(136, 127, 255);
     margin-left: 375px;
   }
 
-  #catalog:hover{
-    color: rgb(22, 180, 22);
-  }
+  
   #catalog2:hover{
     color: rgb(22, 180, 22);
   }
