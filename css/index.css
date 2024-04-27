@@ -170,12 +170,14 @@ transition: 1ms;
     border-radius: 150px;
   }
 
-
+/*juise*/
 
   #carousel1{
 
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 5px;
+
   }
 
 
@@ -183,6 +185,9 @@ transition: 1ms;
 
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 5px;
+
+    
   }
 
 
@@ -190,6 +195,34 @@ transition: 1ms;
 
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 5px;
+
+
+    
   }
 
   
+ #carsul2{
+
+    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+ }
+
+
+
+#revers{
+
+   
+    margin-left: -160px;
+}
+#card1{
+    left:27px
+
+}
+
+#card2{
+    left:15px
+
+}
