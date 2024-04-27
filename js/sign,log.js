@@ -19,7 +19,7 @@ form1.addEventListener('submit',function(e){
 
     alluser.push(userData);
     localStorage.setItem('Data', JSON.stringify(alluser));
-
+alert('Done Sign Up')
 
 });
 

@@ -6,7 +6,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-background-image: url('../media/resturnt.jpeg');
+
 }
 .main{
 	width: 350px;
@@ -88,4 +88,7 @@ button:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
+
+
 
