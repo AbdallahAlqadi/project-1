@@ -152,7 +152,7 @@ transition: 1ms;
 
 .card{
     border-radius: 20px;
-    background-color:rgb(240, 248, 255);
+    background-color:rgb(252, 252, 252,.4);
 }
 
 #catalog{
