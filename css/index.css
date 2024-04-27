@@ -157,7 +157,7 @@ transition: 1ms;
 #catalog2{
     margin-bottom: 80px;
     font-weight:bold;
-    margin-left: 375px;
+    margin-left: 290px;
   }
 
   
@@ -169,3 +169,27 @@ transition: 1ms;
 
     border-radius: 150px;
   }
+
+
+
+  #carousel1{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+
+  #carousel2{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+
+  #carousel3{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  
