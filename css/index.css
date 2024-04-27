@@ -124,3 +124,40 @@ background-color: rgb(136, 127, 255);
 .carousel-control-prev-icon{
     margin-left: -250px;
 }
+.carousel-inner{
+    margin-top: 110px;
+}
+.card-img-top{
+
+    width: 250px;
+    height: 240px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+#catalog{
+  margin-bottom: 20px;
+  font-weight: lighter;
+  margin-left: 468px;
+}
+#catalog2{
+    margin-bottom: 80px;
+    font-weight:bold;
+    margin-left: 375px;
+  }
+
+  #catalog:hover{
+    color: rgb(22, 180, 22);
+  }
+  #catalog2:hover{
+    color: rgb(22, 180, 22);
+  }
+
+  #imgcard{
+
+    border-radius: 150px;
+  }
