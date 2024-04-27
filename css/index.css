@@ -10,6 +10,10 @@ body{
     
 }
 
+#button1{
+    font-size: x-large;
+
+}
 .nav-item:hover{
 background-color: rgb(4, 236, 128);
 border-radius: 50px;
@@ -97,4 +101,26 @@ background-color: rgb(136, 127, 255);
 
     width: 200px;
   
+}
+
+
+#carouselExampleControls{
+   left: 115px;
+}
+
+#face1{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    
+}
+#face2{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+#face3{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+.carousel-control-prev-icon{
+    margin-left: -250px;
 }
