@@ -222,7 +222,8 @@ transition: 1ms;
 #revers{
 
    margin-top: 170px;
-    margin-left: -160px;
+    margin-left: -170px;
+    left: 1px;
 }
 #next{
      margin-top: 170px;
@@ -232,11 +233,13 @@ transition: 1ms;
 .revers{
 
     margin-top: 170px;
-   
+    margin-left: -290px;
+    left: 1px;
+
  }
  .next{
       margin-top: 170px;
-   
+  
  }
 
 
@@ -255,6 +258,20 @@ transition: 1ms;
     width: 45px;
     height: 35px;
     text-align: center;
-margin-bottom: 3px;
-border-radius: 5px 5px 5px 5px;
+margin-bottom: 0.77px;
+border-radius: 18px 1px;
+margin-left: 240.4px;
+
+}
+
+.bi-cart4{
+    size: large;
+}
+
+
+.card2{
+    margin-left: -105px;
+}
+.card3{
+    margin-left: -105px;
 }

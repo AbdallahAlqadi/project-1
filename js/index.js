@@ -9,3 +9,4 @@ function login(){
 
     window.location.href='sign,log.html';
 }
+
