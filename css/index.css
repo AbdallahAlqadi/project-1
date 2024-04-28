@@ -256,18 +256,15 @@ transition: 1ms;
 
 #shop{
 
-    width: 45px;
-    height: 35px;
-    text-align: center;
+    width: 65px;
+    height: 50px;
+  
 margin-bottom: 0.77px;
 border-radius: 18px 1px;
-margin-left: 240.4px;
-
+margin-left: 221px;
+text-align: center;
 }
 
-.bi-cart4{
-    size: large;
-}
 
 
 .card2{
@@ -281,4 +278,7 @@ margin-left: 240.4px;
 }
 #carouselExampleControls{
     margin-left: 40px;
+}
+.bi-cart4{
+margin-top: 15px;
 }
