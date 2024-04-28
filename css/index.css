@@ -222,7 +222,7 @@ transition: 1ms;
 #revers{
 
    margin-top: 170px;
-    margin-left: -170px;
+    margin-left: -155px;
     left: 1px;
 }
 #next{
@@ -233,8 +233,7 @@ transition: 1ms;
 .revers{
 
     margin-top: 170px;
-    margin-left: -290px;
-    left: 1px;
+    margin-left: -270px;
 
  }
  .next{
@@ -274,4 +273,10 @@ margin-left: 240.4px;
 }
 .card3{
     margin-left: -105px;
+}
+#carouselExampleFade{
+    margin-left: 70px;
+}
+#carouselExampleControls{
+    margin-left: 40px;
 }
