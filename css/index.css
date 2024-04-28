@@ -249,3 +249,12 @@ transition: 1ms;
     left:15px
 
 }
+
+#shop{
+
+    width: 45px;
+    height: 35px;
+    text-align: center;
+margin-bottom: 3px;
+border-radius: 5px 5px 5px 5px;
+}
