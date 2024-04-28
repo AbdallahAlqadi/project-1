@@ -89,17 +89,18 @@ background-color: rgb(136, 127, 255);
     width: 1340px;
    padding-right: 50px;
    
-   margin-left: 5px;
+   margin-left: -65px;
 }
 
 .footer{
     text-align:justify;
+ 
 }
 
 .border-light-subtle{
     width: 1340px;
-    margin-left: 5px;
-    height: 110px;
+    margin-left: -65px;
+        height: 110px;
 
 }
 .btn-primary{
