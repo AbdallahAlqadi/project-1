@@ -73,7 +73,7 @@ function addCard() {
 
     var tagTotal = document.createElement('span');
     tagTotal.className = 'card-total';
-    tagTotal.innerHTML = 'Total : ';
+    tagTotal.innerHTML = 'Total prices : ';
 
     var total = document.createElement('a');
     total.className = 'primary';
