@@ -109,6 +109,7 @@ window.onload = function() {
       cardbody.innerHTML += cards[i];  
     }
   }
+ 
 };
 
 
