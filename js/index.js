@@ -62,8 +62,8 @@ function shop(index) {
  
 }
 
-function addcard(){
-  
+function addCard(){
+
 }
 
 
