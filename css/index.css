@@ -310,3 +310,44 @@ margin-top: 15px;
 
 
 
+#img3{
+    width: 470px;
+    height: 485px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+#sec2{
+    margin-top: 80px;
+}
+
+#grid2{
+    margin-left: 90px;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns:auto auto;
+    gap:30px;
+    margin-bottom: 180px;
+}
+
+
+#a{
+color: #3DCE15;
+font-size:xxx-large;
+font-weight: bolder;
+margin-left: 40px;
+
+
+}
+
+
+#b{
+    margin-left: 40px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+#c{
+    font-size: larger;
+    margin-left: 40px;
+    margin-top: 20px;
+}
