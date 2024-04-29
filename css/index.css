@@ -287,16 +287,21 @@ margin-top: 15px;
 
 
 
-
+/* Payment*/
 
 .cart {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color:rgb(240, 248, 255) ;
+    border-radius: 10px;
     padding: 10px;
-    position: fixed;
-    top: 10px;
+   margin-left: 470PX;
+    top: 450px;
     right: 10px;
     width: 250px;
+    margin-bottom: 50px;
+    }
+    .checkout{
+        border-radius: 5px;
     }
 
 
