@@ -1,4 +1,6 @@
 var number = document.getElementById('number');
+var cardbody=document.getElementById('CardBody');
+
 function shop(index) {
   switch (index) {
     case 1:
@@ -63,6 +65,23 @@ function shop(index) {
 }
 
 function addCard(){
+  var tagTotal=document.createElement('span');
+  tagTotal.className='card-total'
+  tagTotal.innerHTML='Total : ';
+
+  var total=document.createElement('a');
+  total.className=' primary'
+  total.innerHTML=number.innerHTML;
+  
+  var contact=document.createElement('span');
+contact.className='card-body'
+var card=document.createElement('div');
+card.className='card'
+contact.append(tagTotal)
+contact.append(total)
+card.style='width: 18rem';
+card.append(contact)
+cardbody.append(card)
 
 }
 
