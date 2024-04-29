@@ -60,6 +60,7 @@ function shop(index) {
       // Do nothing if the index is not valid
       break;
   }
+ 
 }
 
 
