@@ -64,27 +64,56 @@ function shop(index) {
  
 }
 
-function addCard(){
-  var tagTotal=document.createElement('span');
-  tagTotal.className='card-total'
-  tagTotal.innerHTML='Total : ';
+function addCard() {
 
-  var total=document.createElement('a');
-  total.className=' primary'
-  total.innerHTML=number.innerHTML;
+  if (typeof localStorage !== 'undefined') {
+   
+    var cards = JSON.parse(localStorage.getItem('storedCards')) || [];
+
+
+    var tagTotal = document.createElement('span');
+    tagTotal.className = 'card-total';
+    tagTotal.innerHTML = 'Total : ';
+
+    var total = document.createElement('a');
+    total.className = 'primary';
+    total.innerHTML = number.innerHTML;
+
+    var contact = document.createElement('span');
+    contact.className = 'card-body';
+    contact.append(tagTotal);
+    contact.append(total);
+
+    var card = document.createElement('div');
+    card.className = 'card';
+    card.style = 'width: 18rem;';
+    card.append(contact);
+
   
-  var contact=document.createElement('span');
-contact.className='card-body'
-var card=document.createElement('div');
-card.className='card'
-contact.append(tagTotal)
-contact.append(total)
-card.style='width: 18rem';
-card.append(contact)
-cardbody.append(card)
+    cards.push(card.outerHTML);  
 
+    localStorage.setItem('storedCards', JSON.stringify(cards));
+
+   
+    cardbody.append(card);
+  } else {
+    console.error('localStorage is not supported by this browser.');
+  }
 }
 
+window.onload = addCard;
+window.onload = function() {
+  if (typeof localStorage !== 'undefined') {
+    var cards = JSON.parse(localStorage.getItem('storedCards')) || [];
+    for (var i = 0; i < cards.length; i++) {
+      cardbody.innerHTML += cards[i];  
+    }
+  }
+};
+
+function Delete(){
+  
+}
 
 
 function home(){
