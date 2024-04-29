@@ -77,7 +77,7 @@ function addCard() {
 
     var total = document.createElement('a');
     total.className = 'primary';
-    total.innerHTML = number.innerHTML;
+    total.innerHTML = (number.innerHTML+' JD');
 
     var contact = document.createElement('span');
     contact.className = 'card-body';
@@ -111,9 +111,30 @@ window.onload = function() {
   }
 };
 
-function Delete(){
-  
+
+function Delete() {
+  if (typeof localStorage !== 'undefined') {
+   
+    var cards = JSON.parse(localStorage.getItem('storedCards')) || [];
+
+ 
+    if (cards.length > 0) {
+     
+      cards.pop();
+
+      
+      localStorage.setItem('storedCards', JSON.stringify(cards));
+
+     
+      cardbody.lastElementChild.remove();
+    } else {
+      console.warn('No cards to delete.');
+    }
+  } else {
+    console.error('localStorage is not supported by this browser.');
+  }
 }
+
 
 
 function home(){
