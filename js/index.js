@@ -96,9 +96,11 @@ function addCard() {
 
    
     cardbody.append(card);
+   
   } else {
     console.error('localStorage is not supported by this browser.');
   }
+number.innerHTML=0.00;
 }
 
 window.onload = addCard;
@@ -109,7 +111,7 @@ window.onload = function() {
       cardbody.innerHTML += cards[i];  
     }
   }
- 
+
 };
 
 
