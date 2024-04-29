@@ -293,13 +293,14 @@ margin-top: 15px;
     border: 1px solid #ffffff;
     background-color:rgb(240, 248, 255) ;
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
    margin-left: 470PX;
     top: 450px;
     right: 10px;
-    width: 250px;
+    width: 270px;
     margin-bottom: 50px;
     }
+
     .checkout{
         border-radius: 5px;
     }
