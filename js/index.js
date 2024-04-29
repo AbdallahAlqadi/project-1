@@ -1,5 +1,4 @@
 var number = document.getElementById('number');
-
 function shop(index) {
   switch (index) {
     case 1:
@@ -77,9 +76,6 @@ function login(){
 
     window.location.href='sign,log.html';
 }
-
-
-
 
 
 
