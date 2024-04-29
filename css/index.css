@@ -309,7 +309,9 @@ margin-top: 15px;
         border-radius: 5px;
     }
 
-
+    .checkout:hover{
+        background-color: rgb(6, 209, 209);
+    }
 
 
 #img3{
