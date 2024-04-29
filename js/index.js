@@ -78,7 +78,6 @@ function addCard() {
     var total = document.createElement('a');
     total.className = 'primary';
     total.innerHTML = (number.innerHTML+' JD');
-
     var contact = document.createElement('span');
     contact.className = 'card-body';
     contact.append(tagTotal);
