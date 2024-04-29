@@ -62,7 +62,9 @@ function shop(index) {
  
 }
 
-
+function addcard(){
+  
+}
 
 
 
