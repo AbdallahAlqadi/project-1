@@ -1,0 +1,21 @@
+#profile{
+    background-color: rgba(211, 210, 210, 0.5);
+    width: 300px;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 10px 5px;
+    margin-left: 480px;
+    margin-top: 100px;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+
+#title{
+  
+    margin-left: 555px;
+    font-size: xxx-large;
+    color: rgb(14, 170, 14);
+
+}
