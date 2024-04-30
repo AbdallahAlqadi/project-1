@@ -150,7 +150,9 @@ function login(){
     window.location.href='sign,log.html';
 }
 
-
+function profile(){
+  window.location.href='profile.html';
+}
 
 
 
