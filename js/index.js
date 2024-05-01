@@ -156,6 +156,12 @@ function profile(){
 
 
 
+function remove(){
+
+  number.innerHTML=0.00;
+}
+
+
 
 
 
