@@ -366,3 +366,70 @@ margin-left: 60px;
     font-size: larger;
     margin-bottom: 50px;
 }
+
+
+
+
+
+/*responsive*/
+@media only screen and (min-width: 450px) and (max-width: 550px){
+   
+  #navbar{
+    width: 231%;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+   
+
+  #grid1{
+    margin-left: -60px;
+  }
+
+
+  #img{
+    margin-left: 5px;
+   
+  }
+
+  #button1{
+    margin-left: -18%;
+  }
+
+
+  #img3{
+    margin-top: 100px;
+    margin-left: -10px;
+    
+  }
+
+  #a{
+ margin-left:25% ;
+ font-size: xxx-large;
+
+    
+  }
+  #b{
+    margin-left:25% ;
+    font-size: xx-large;
+  }
+
+  #c{
+    font-size: x-large;
+  
+  }
+
+#grid2{
+    margin-top: 40px;
+    margin-left: 190px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#button1{
+    width: 150px;
+    text-align: center;
+}
+
+}
+
