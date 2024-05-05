@@ -432,7 +432,17 @@ margin-left: 60px;
 }
 
 
+.border-light{
+    width: 231%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
+.border-light-subtle{
+    width: 231%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
 }
 
