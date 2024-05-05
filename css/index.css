@@ -431,5 +431,18 @@ margin-left: 60px;
     text-align: center;
 }
 
+
+.border-light{
+    width: 231%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.border-light-subtle{
+    width: 231%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
 }
 
