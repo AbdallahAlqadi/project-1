@@ -130,7 +130,7 @@ function Delete() {
      
       cardbody.lastElementChild.remove();
     } else {
-      console.warn('No cards to delete.');
+      alert('No cards to delete.');
     }
   } else {
     console.error('localStorage is not supported by this browser.');
