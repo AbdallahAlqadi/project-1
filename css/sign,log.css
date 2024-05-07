@@ -88,3 +88,8 @@ body{
 .signup label:hover{
   text-decoration: underline;
 }
+
+.container{
+
+	border-radius: 15px;
+}
