@@ -10,13 +10,15 @@
   <link rel="stylesheet" href="./css/sign,log.css">
 </head>
 <body>
+
+  <!--login-->
   <div class="container">
     <input type="checkbox" id="check">
-    <div class="login form">
+    <div class="login form" id="form1">
       <header>Login</header>
       <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Enter your password">
+        <input id="emaillogin" type="text" placeholder="Enter your email"required>
+        <input id="passwordlogin" type="password" placeholder="Enter your password"required>
         <a href="#">Forgot password?</a>
         <input type="submit" class="button" value="Login">
       </form>
@@ -26,14 +28,18 @@
         </span>
       </div>
     </div>
-    <div class="registration form">
+
+
+
+    <!--signin-->
+    <div class="registration form" id="form2">
       <header>Signup</header>
       <form action="#">
-        <input id="name" type="text" placeholder="Nmae">
-        <input id="email" type="text" placeholder="Enter your email">
-        <input id="password" type="password" placeholder="Create a password">
-        <input id="confpassword" type="password" placeholder="Confirm your password">
-        <input id="phonenumber" type="number" placeholder="PhoneNumber">
+        <input id="Name" type="text" placeholder="Nmae"required>
+        <input id="email" type="text" placeholder="Enter your email"required>
+        <input id="password" type="password" placeholder="Create a password"required>
+        <input id="confpassword" type="password" placeholder="Confirm your password"required>
+        <input id="phonenumber" type="tel" placeholder="PhoneNumber"required>
         <input type="submit" class="button" value="Signup">
       </form>
       <div class="signup">
@@ -43,5 +49,7 @@
       </div>
     </div>
   </div>
+
+  <script src="./js/sign,log.js"></script>
 </body>
 </html>

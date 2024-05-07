@@ -1,20 +1,24 @@
-var username=document.getElementById('username');
+var Name=document.getElementById('Name');
 var email=document.getElementById('email');
 var password=document.getElementById('password');
-var form1=document.getElementById('form1');
+var confpassword=document.getElementById('confpassword');
+var phonenumber=document.getElementById('phonenumber');
+var form2=document.getElementById('form2');
 
 var userDataFromStorage = JSON.parse(localStorage.getItem('Data'));
 
 var alluser = userDataFromStorage || [];
 
-form1.addEventListener('submit',function(e){
+form2.addEventListener('submit',function(e){
     e.preventDefault()
 
 
     var userData = {
-        username: username.value,
+       Name: Name.value,
         email: email.value,
         password: password.value,  
+        confpassword:confpassword.value,
+        phonenumber:phonenumber.value
     };
 
     alluser.push(userData);
@@ -26,11 +30,11 @@ window.location.href='index.html'
 
 // Login
 
-var formLogin = document.getElementById('formlogin'); 
-var emailLogin = document.getElementById('emaillogin');
-var passwordLogin = document.getElementById('passwordlogin');
+var form1 = document.getElementById('form1'); 
+var emaillogin = document.getElementById('emaillogin');
+var passwordlogin = document.getElementById('passwordlogin');
 
-formLogin.addEventListener('submit', function(event) { 
+form1.addEventListener('submit', function(event) { 
   event.preventDefault(); 
 
   var allUsers = JSON.parse(localStorage.getItem('Data')); 
@@ -41,17 +45,17 @@ formLogin.addEventListener('submit', function(event) {
   }
 
   for (var i = 0; i < allUsers.length; i++) {
-    if (allUsers[i].email === emailLogin.value && allUsers[i].password === passwordLogin.value) {
-      console.log('Login successful!');
+    if (allUsers[i].email === emaillogin.value && allUsers[i].password === passwordlogin.value) {
+      alert('Login successful!');
       localStorage.setItem('loginUser', JSON.stringify(allUsers[i]));
       window.location.href = 'index.html';
       return; 
     }
   }
 
-  console.log('Invalid email or password.');
-  alert('Invalid email or password.');
-});
+  
+  alert('Invalid email or password.');}
+);
 
 
 
