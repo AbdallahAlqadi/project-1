@@ -45,7 +45,7 @@ form1.addEventListener('submit', function(event) {
   }
 
   for (var i = 0; i < allUsers.length; i++) {
-    if (allUsers[i].email === emaillogin.value && allUsers[i].password === passwordlogin.value) {
+    if (allUsers[i].email == emaillogin.value && allUsers[i].password == passwordlogin.value) {
       alert('Login successful!');
       localStorage.setItem('loginUser', JSON.stringify(allUsers[i]));
       window.location.href = 'index.html';
