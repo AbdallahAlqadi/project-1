@@ -387,73 +387,24 @@ margin-left: 60px;
 
 
 /*responsive*/
-@media only screen and  (max-width: 530px){
-   #img2{
-    width: 425px;
-    height: 510px;
-   }
+@media only screen and (min-width: 430px) and  (max-width: 530px){
+  
   #navbar{
     width: 100%;
     margin-left: 5px;
     margin-top: 5px;
   }
 
-  #grid1{
-    margin-left: -60px;
-  }
-   
-  #grid2{
-    margin-left: 15px;
-  }
-  
-#a{
 
-    font-size: xx-large;
-    margin-left: -440px;
-    }
 
-#img3{
-   
-    margin-top: 320px;
+.border-light{
+    width: 100%;
 }
 
-#b{
 
-    font-size: xx-large;
-    margin-left: -440px;
+.border-light-subtle{
+
+width: 100%;
 }
-#c{
-
-    font-size: xx-large;
-    margin-top:80px;
-   
-}
-
-#button1{
-    margin-left: -45px;
-}
-
-#section1{
-    margin-top: 10px;
-}
-
-#catalog2{
-    width: 100px;
-}
-
-#titlepaying{
-    margin-left: 320px;
-    margin-bottom: 8px;
-}
-
-#paying_off{
-    margin-left: 240px;
-}
-
-#healthyfooter{
-
-margin-left: 10px;
-}
-
 
 }
