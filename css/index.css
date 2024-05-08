@@ -356,6 +356,14 @@ margin-left: 60px;
     margin-top: 20px;
 }
 
+#titlepaying{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(23, 224, 23);
+    margin-left: 38px;
+    margin-top: 160px;
+    text-shadow: 2px 2px 20px #3DCE15;
+}
 
 /*newcard*/
 #CardBody{
@@ -367,6 +375,13 @@ margin-left: 60px;
     margin-bottom: 50px;
 }
 
+#healthyfooter{
+    font-family: 'Courier New';
+      font-weight: bolder;
+      margin-top: 50px;
+      color: rgb(15, 206, 15);
+      margin-left: -25px;
+}
 
 
 
@@ -375,74 +390,67 @@ margin-left: 60px;
 @media only screen and (min-width: 450px) and (max-width: 550px){
    
   #navbar{
-    width: 231%;
+    width: 221%;
     margin-left: 5px;
     margin-top: 5px;
   }
-
-   
 
   #grid1{
     margin-left: -60px;
   }
-
-
-  #img{
-    margin-left: 5px;
    
+  #grid2{
+    margin-left: 15px;
   }
-
-  #button1{
-    margin-left: -18%;
-  }
-
-
-  #img3{
-    margin-top: 100px;
-    margin-left: -10px;
-    
-  }
-
-  #a{
- margin-left:25% ;
- font-size: xxx-large;
-
-    
-  }
-  #b{
-    margin-left:25% ;
-    font-size: xx-large;
-  }
-
-  #c{
-    font-size: x-large;
   
-  }
+#a{
 
-#grid2{
-    margin-top: 40px;
-    margin-left: 190px;
-    display: grid;
-    grid-template-columns: auto;
+    font-size: xxx-large;
+    margin-left: -440px;
+    }
+
+#img3{
+   
+    margin-top: 320px;
+}
+
+#b{
+
+    font-size: xx-large;
+    margin-left: -440px;
+}
+#c{
+
+    font-size: xx-large;
+    margin-top:170px;
+   
 }
 
 #button1{
-    width: 150px;
-    text-align: center;
+    margin-left: -45px;
+}
+
+#section1{
+    margin-top: 10px;
+}
+
+#catalog2{
+    width: 100px;
+}
+
+#titlepaying{
+    margin-left: 320px;
+    margin-bottom: 8px;
+}
+
+#paying_off{
+    margin-left: 240px;
+}
+
+#healthyfooter{
+
+margin-left: 10px;
 }
 
 
-.border-light{
-    width: 231%;
-    margin-left: 5px;
-    margin-top: 5px;
 }
-
-.border-light-subtle{
-    width: 231%;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-}
-
