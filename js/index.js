@@ -1,19 +1,47 @@
 var number = document.getElementById('number');
 var cardbody=document.getElementById('CardBody');
 
+
+
+var item1=0;
+var item2=0;
+var item3=0;
+var item4=0;
+var item5=0;
+var item6=0;
+var item7=0;
+var item8=0;
+var item9=0;
+var item10=0;
+var item11=0;
+var item12=0;
+var item13=0;
+var item14=0;
+var item15=0;
+var item16=0;
+var item17=0;
+var item18=0;
+
+
+
 function shop(index) {
   switch (index) {
     case 1:
         number.innerHTML = parseFloat(number.innerHTML) + 3.00;
+        item1++;
       break;
     case 2:
         number.innerHTML = parseFloat(number.innerHTML) + 2.00;
+        item2++;
       break;
     case 3:
         number.innerHTML = parseFloat(number.innerHTML) + 2.50;
+        item3++;
       break;
     case 4:
       number.innerHTML= parseFloat(number.innerHTML) + 5.00;
+      item4++;
+      
       break;
     case 5:
         number.innerHTML = parseFloat(number.innerHTML) + 3.00;
@@ -113,7 +141,7 @@ window.onload = function() {
 
 };
 
-
+//DELETE
 function Delete() {
   if (typeof localStorage !== 'undefined') {
    
