@@ -1,16 +1,14 @@
-var fname=document.getElementById('name')
-var email=document.getElementById('email')
-var password=document.getElementById('Password')
-var confpassword=document.getElementById('confPassword')
-var phonenumber=document.getElementById('phonenumber')
+var Name=document.getElementById('Name');
+var email=document.getElementById('Email');
+var password=document.getElementById('Password');
+var confpassword=document.getElementById('Confpassword');
+var phone=document.getElementById('Phone');
 
 
+var profile = JSON.parse(localStorage.getItem('loginUser'));
 
-
-var profile =JSON.parse(localStorage.getItem('loginUser'));
-
+Name.innerHTML=profile.Name;
 email.innerHTML=profile.email;
-fname.innerHTML=profile.Name;
 password.innerHTML=profile.password;
 confpassword.innerHTML=profile.confpassword;
-phonenumber.innerHTML=profile.phonenumber;
+phone.innerHTML=profile.phonenumber;

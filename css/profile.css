@@ -1,37 +1,96 @@
+body {
+  font-family: sans-serif; 
+  margin: 0; 
+  padding: 20px; 
+  background-color: #f5f5f5; 
+  color: #333; 
+}
 
-#profile {
-    background-color: rgb(255, 255, 255, 0.5);
-    width: 300px;
-    height: 270px;
-    border-radius: 20px;
-    box-shadow: 20px 10px 10px 5px;
-    margin-left: 500px;
-    margin-top: 100px;
-    text-align: center;
-    animation: profile-animation 2s ease-in-out infinite alternate; /* Animation properties */
-  }
-  
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px; 
+  margin: 0 auto;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 20px; 
+  border-radius: 30px;
 
-  @keyframes profile-animation {
-    from {
-      opacity: 0; 
-      transform: scale(0.8); 
-    }
-    to {
-      opacity: 1; 
-      transform: scale(1); 
-    }
-  }
-  
- 
-  body {
-    background-color: rgb(241, 242, 243);
-  }
-  
-  #title {
-    margin-left: 575px;
-    font-size: xxx-large;
-    color: rgba(5, 197, 85, 0.815);
-    text-shadow: 2px 4px 20px #16EB13;
-  }
-  
+}
+
+#p { 
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #07a06d; 
+  margin-left:-40px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+
+.profile-details label {
+  display: inline-block;
+  width: 120px; 
+  text-align: right; 
+  margin-bottom: 5px;
+  color: #666; 
+}
+
+.profile-details span {
+  display: inline-block;
+  margin-left: 10px; 
+  font-weight: bold;
+}
+.profile-container {
+  width: 500px; 
+  height: 400px; 
+}
+
+#information{
+  margin-top: 65px;
+  margin-left: 110px;
+}
+
+#name{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  color: #181818;
+}
+
+#email{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  color: #0a0a0a;
+
+}
+
+#password{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  color: #141414;
+
+}
+
+#confpassword{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  color: #111111;
+
+}
+#phone{
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  color: #0a0a0a;
+
+}
