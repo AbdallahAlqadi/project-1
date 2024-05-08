@@ -254,7 +254,7 @@ var t1 = document.createElement('div');
 //t18
    var t18 = document.createElement('div');
     t18.className = 'card-t18';
-   t18.innerHTML = 'Avocado Juice : ';
+   t18.innerHTML = 'Avocado_Juice : ';
     var n18= document.createElement('a');
    n18.className = 'primary18';
    n18.innerHTML = item18;
