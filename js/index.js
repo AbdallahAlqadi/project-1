@@ -58,7 +58,7 @@ function shop(index) {
         number.innerHTML = parseFloat(number.innerHTML) + 2.00;
       break;
     default:
-      // Do nothing if the index is not valid
+   
       break;
   }
  
