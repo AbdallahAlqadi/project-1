@@ -4,8 +4,8 @@ body{
     background-color:rgb(236, 236, 236);
 }
 #img{
-    height: 110px;
-    width: 115px;
+    height: 102px;
+    width: 105px;
     border-radius: 100px;
     border: 1px solid #000000;
 
@@ -44,9 +44,10 @@ transform: scale(1.1);
 
 #navbar{
 
-    width: 1340px;
+    width: 1343px;
     margin-left: 5px;
-margin-right: 5px;    
+margin-right: 5px; 
+height: 110px;   
 }
 #img2{
  width: 610px;
