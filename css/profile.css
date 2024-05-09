@@ -1,4 +1,54 @@
 
+/*navbar*/
+.bg-light{
+  background-color: rgb(136, 127, 255);
+  }
+
+  #navbarSupportedContent{
+    padding-left: 60px;
+}
+
+#navbar{
+
+  width: 1363px;
+  margin-left: -19px;
+  margin-top: -19.6px;
+}
+
+#img{
+  height: 110px;
+  width: 115px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+
+}
+
+
+#navbarSupportedContent{
+  padding-left: 60px;
+}
+
+
+.nav-item:hover{
+  background-color: rgb(4, 236, 128);
+  border-radius: 50px;
+  --moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  }
+  
+  .nav-item{
+    margin-left: 25px;
+}
+
+
+.d-flex{
+  margin-right: 50px;
+}
+
+
 /*body*/
 
 body {
