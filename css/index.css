@@ -11,10 +11,7 @@ body{
 
 }
 
-#button1{
-    font-size: x-large;
 
-}
 .nav-item:hover{
 background-color: rgb(4, 236, 128);
 border-radius: 50px;
@@ -67,7 +64,7 @@ padding-top: 5px;
    font-size: x-large;
    background-color: rgb(4, 221, 120);
    border-radius: 30px;
-  padding: 7px 10px 9px 0px;
+  padding: 7px 7px 9px 0px;
 }
 
 
