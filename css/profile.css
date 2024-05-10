@@ -124,8 +124,6 @@ text-shadow: 1px 0px 1px #CCCCCC,
 
 .nav-link{
   font-size: x-large; 
-  color: black;
-
 }
 
 #information{
@@ -135,7 +133,7 @@ text-shadow: 1px 0px 1px #CCCCCC,
   font-size: larger;
   font-weight: bold;
  color: #666;
- font-family:Arial, Helvetica, sans-serif
+ font-family:'Times New Roman', Times, serif
 
 }
 
