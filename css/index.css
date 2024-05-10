@@ -11,6 +11,15 @@ body{
 
 }
 
+#text1{
+    color: rgb(2, 148, 2);
+     font-size: xxx-large;
+     margin-bottom: 20px; 
+}
+
+#text2{
+    font-size: xxx-large;
+}
 
 .nav-item:hover{
 background-color: rgb(4, 236, 128);
