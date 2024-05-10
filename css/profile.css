@@ -122,6 +122,12 @@ text-shadow: 1px 0px 1px #CCCCCC,
   
 }
 
+.nav-link{
+  font-size: x-large; 
+  color: black;
+
+}
+
 #information{
   margin-top: 20px;
   margin-left: 90px;
