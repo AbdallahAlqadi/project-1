@@ -1,3 +1,5 @@
+
+
 var number = document.getElementById('number');
 var cardbody=document.getElementById('CardBody');
 
@@ -116,6 +118,7 @@ function addCard() {
 //strar
 
 //t1
+
 var t1 = document.createElement('span');
     t1.className = 'card-t1';
    t1.innerHTML = 'Barbecue_salad : ';
@@ -260,18 +263,21 @@ var t1 = document.createElement('span');
    n18.innerHTML = item18+`</br>`;
 
 
+
    
    
 
 //end    
 
+
     var tagTotal = document.createElement('span');
     tagTotal.className = 'card-total';
-    tagTotal.innerHTML = 'Total prices : ';
+    tagTotal.innerHTML =    `_______________________________`  + `</br>` +'Total prices : ';
+   
 
     var total = document.createElement('a');
     total.className = 'primary';
-    total.innerHTML = (number.innerHTML+' JD'+`</br>`);
+    total.innerHTML = (number.innerHTML+' JD');
 
 
     var contact = document.createElement('span');
@@ -331,6 +337,10 @@ var t1 = document.createElement('span');
 
     contact.append(t18);
     contact.append(n18);
+
+    contact.append(tagTotal);
+    contact.append(total);
+    
 //end
     var card = document.createElement('div');
     card.className = 'card';
