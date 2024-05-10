@@ -11,7 +11,7 @@ var alluser = userDataFromStorage || [];
 
 form2.addEventListener('submit',function(e){
     e.preventDefault()
-
+if(password.value==confpassword.value){
 
     var userData = {
        Name: Name.value,
@@ -23,7 +23,11 @@ form2.addEventListener('submit',function(e){
 
     alluser.push(userData);
     localStorage.setItem('Data', JSON.stringify(alluser));
-window.location.href='index.html'
+window.location.href='index.html'}
+
+else{
+  alert('password not equal confpassword.')
+}
 
 });
 
