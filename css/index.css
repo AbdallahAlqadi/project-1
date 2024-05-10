@@ -120,6 +120,8 @@ background-color: rgb(136, 127, 255);
 
 #carouselExampleControls{
    left: 115px;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
 
 #face1{
@@ -263,6 +265,10 @@ transition: 1ms;
 
 }
 
+#allsal{
+    color: green;
+}
+
 #shop{
 
     width: 65px;
@@ -272,6 +278,7 @@ margin-bottom: 0.77px;
 border-radius: 18px 1px;
 margin-left: 221px;
 text-align: center;
+background-color: rgb(0, 255, 106);
 }
 
 
