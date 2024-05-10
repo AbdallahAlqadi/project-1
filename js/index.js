@@ -412,7 +412,7 @@ function profile(){
 
 function remove(){
 
-  number.innerHTML=0.00;
+  number.innerHTML=Float(0.00);
 }
 
 
