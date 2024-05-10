@@ -468,7 +468,9 @@ width: 120%;
 #catalog{
     margin-top: -40px;
 }
-
+#carsul2{
+    margin-left: -80px;
+}
 .next{
     margin-left: -90px;
 }
@@ -560,8 +562,8 @@ width: 120%;
 
 
 #imgcard{
-    width: 75px;
-    height: 90px;
+    width: 55px;
+    height: 70px;
     margin-left: 20px;
 }
 
@@ -573,13 +575,16 @@ width: 120%;
     margin-left: -20px;
 }
 
+#carsul2{
+    margin-left: -25px;
+}
 
 .card-title{
     font-size:smaller;
 }
 
 .card-text{
-    font-size:smaller;
+   display: none;
 }
 
 #allsal{
