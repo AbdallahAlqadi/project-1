@@ -358,7 +358,7 @@ var t1 = document.createElement('span');
   } else {
     console.error('localStorage is not supported by this browser.');
   }
-number.innerHTML=0.00;
+number.innerHTML=Float(0.00);
 
 item1=0; item2=0;
 item3=0;
