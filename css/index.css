@@ -465,6 +465,9 @@ width: 100%;
     margin-left: 35px;
    
 }
+#catalog{
+    margin-top: -40px;
+}
 #carsul2{
     margin-left: -80px;
 }
@@ -554,14 +557,38 @@ width: 100%;
 
 .card{
     width: 150px;
-    height: 300px;
+    height: 200px;
 }
 
 
 #imgcard{
-    width: 50px;
-    height: 40px;
+    width: 85px;
+    height: 90px;
     margin-left: 20px;
+}
+
+#next{
+    margin-left: 30px;
+}
+
+#revers{
+    margin-left: -20px;
+}
+
+#carsul2{
+    margin-left: -25px;
+}
+
+#card-title{
+    font-size:small;
+}
+
+#card-text{
+    font-size:small;
+}
+
+#allsal{
+    font-size: small;
 }
 }
 
