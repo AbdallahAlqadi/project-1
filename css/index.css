@@ -469,7 +469,8 @@ width: 120%;
     margin-top: -40px;
 }
 #carsul2{
-    margin-left: -80px;
+    margin-left: -65px;
+    width: 370px;
 }
 .next{
     margin-left: -90px;
@@ -568,16 +569,14 @@ width: 120%;
 }
 
 #next{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 #revers{
-    margin-left: -20px;
+    margin-left: -35px;
 }
 
-#carsul2{
-    margin-left: -25px;
-}
+
 
 .card-title{
     font-size:smaller;
@@ -597,5 +596,11 @@ width: 120%;
 .card3{
     margin-left: 2px;
 }
+#card1{
+    margin-left: -20px;
+}
+
+
+
 }
 
