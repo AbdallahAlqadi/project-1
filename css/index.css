@@ -368,11 +368,20 @@ margin-left: 60px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 15px;
-    text-align: center;
+    text-align: left;
     font-size: larger;
     margin-bottom: 50px;
+
 }
 
+#CardBody a{
+text-decoration: none;
+color: rgb(23, 224, 23);
+
+}
+#CardBody span{
+    font-weight:550;
+}
 #healthyfooter{
     font-family: 'Courier New';
       font-weight: bolder;
