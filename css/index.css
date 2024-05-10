@@ -436,13 +436,13 @@ color: rgb(23, 224, 23);
 
 
 .border-light{
-    width: 100%;
+    width: 120%;
 }
 
 
 .border-light-subtle{
 
-width: 100%;
+width: 120%;
 }
 
 
@@ -589,6 +589,10 @@ width: 100%;
 
 #allsal{
     font-size: small;
+}
+
+.carousel-inner{
+    gap: 20px;
 }
 }
 
