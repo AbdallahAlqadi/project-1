@@ -165,6 +165,7 @@ transition: 1ms;
 .card{
     border-radius: 20px;
     background-color:rgb(252, 252, 252,.4);
+    width: 18rem;
 }
 
 #catalog{
