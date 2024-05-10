@@ -468,9 +468,7 @@ width: 120%;
 #catalog{
     margin-top: -40px;
 }
-#carsul2{
-    margin-left: -80px;
-}
+
 .next{
     margin-left: -90px;
 }
@@ -556,13 +554,13 @@ width: 120%;
 }
 
 .card{
-    width: 150px;
-    height: 200px;
+    width: 110px;
+    height: 150px;
 }
 
 
 #imgcard{
-    width: 85px;
+    width: 75px;
     height: 90px;
     margin-left: 20px;
 }
@@ -575,24 +573,24 @@ width: 120%;
     margin-left: -20px;
 }
 
-#carsul2{
-    margin-left: -25px;
+
+.card-title{
+    font-size:smaller;
 }
 
-#card-title{
-    font-size:small;
-}
-
-#card-text{
-    font-size:small;
+.card-text{
+    font-size:smaller;
 }
 
 #allsal{
-    font-size: small;
+    font-size:smaller;
 }
 
-.carousel-inner{
-    gap: 20px;
+.card2{
+    margin-left: 2px;
+}
+.card3{
+    margin-left: 2px;
 }
 }
 
