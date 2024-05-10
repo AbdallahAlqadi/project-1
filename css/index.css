@@ -122,6 +122,7 @@ background-color: rgb(136, 127, 255);
    left: 115px;
    margin-bottom: 50px;
    margin-top: 50px;
+   margin-left: 40px;
 }
 
 #face1{
@@ -306,9 +307,7 @@ background-color: rgb(0, 255, 106);
 #carouselExampleFade{
     margin-left: 70px;
 }
-#carouselExampleControls{
-    margin-left: 40px;
-}
+
 .bi-cart4{
 margin-top: 15px;
 
@@ -463,7 +462,7 @@ width: 100%;
 
 #catalog2{
     font-size: larger;
-    margin-left: 45px;
+    margin-left: 35px;
    
 }
 #carsul2{
@@ -477,4 +476,92 @@ width: 100%;
     margin-left: 4px;
 }
 
+
+#text1{
+   
+     font-size: larger;
+     margin-bottom: 20px; 
 }
+
+#text2{
+    font-size: larger;
+}
+
+#button1{
+    width: 80px;
+    font-size: small;
+    margin-left: -20px;
+    text-align: right;
+}
+
+#grid1{
+    margin-left: -90px;
+}
+
+#img2{
+    width:260px;
+    height: 280px;
+}
+
+#section1{
+    margin-top: 30px;
+}
+
+#img3{
+
+    width:220px;
+    height: 240px; 
+    margin-top: 20px;
+}
+
+#grid2{
+    margin-left: -25px;
+    margin-top: 110px;
+}
+
+#a{
+    font-size:larger;
+    font-weight: bolder;
+    margin-left: 7px;
+}
+
+#b{
+    margin-left: 7px;
+    margin-top: 17px;
+    font-weight: bolder;
+}
+
+
+#c{
+
+    font-size: larger;
+    margin-left: 7px;
+    margin-top: 18px;
+    width: 135px;
+}
+#sec2{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.next{
+    margin-left: -170px;
+}
+
+.revers{
+    margin-left: -325px;
+}
+
+.card{
+    width: 150px;
+    height: 300px;
+}
+
+
+#imgcard{
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+}
+}
+
