@@ -45,6 +45,13 @@
 }
 
 
+#itemnavbar{
+  font-size: x-large;
+   color: black;
+   
+
+}
+
 .d-flex{
   margin-right: 50px;
 }
@@ -120,10 +127,6 @@ text-shadow: 1px 0px 1px #CCCCCC,
   width: 500px; 
   height: 400px; 
   
-}
-
-.nav-link{
-  font-size: x-large; 
 }
 
 #information{
