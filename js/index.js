@@ -368,6 +368,13 @@ window.onload = function() {
 
 };
 
+//DeleteAll
+function DeleteAll(){
+  const cards = document.querySelectorAll(".card"); 
+  cards.forEach(card => card.remove()); 
+}
+
+
 //DELETE
 function Delete() {
   if (typeof localStorage !== 'undefined') {
