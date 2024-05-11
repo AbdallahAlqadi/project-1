@@ -340,7 +340,7 @@ var t1 = document.createElement('span');
    
     cardbody.append(card);
     
-    number.innerHTML=double(0);
+    number.innerHTML=0;
   } else {
     console.error('localStorage is not supported by this browser.');
   }
@@ -413,7 +413,7 @@ function profile(){
 
 function remove(){
 
-  number.innerHTML=double(0);
+  number.innerHTML=0.00;
 }
 
 
