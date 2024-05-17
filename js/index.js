@@ -373,7 +373,7 @@ window.onload = function() {
 
 //DELETE
 function Delete() {
-  if (typeof localStorage !== 'undefined') {
+  if (typeof localStorage != 'undefined') {
    
     var cards = JSON.parse(localStorage.getItem('storedCards')) || [];
 
