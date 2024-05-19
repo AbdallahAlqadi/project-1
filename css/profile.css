@@ -65,10 +65,10 @@
   background: #65f689;
   
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right bottom, rgb(101, 246, 135), rgb(101, 246, 135));
+  background: -webkit-linear-gradient(to right bottom, rgb(78, 247, 117), rgb(101, 246, 135));
   
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right bottom,rgb(101, 246, 135), rgb(101, 246, 135))
+  background: linear-gradient(to right bottom,rgb(2, 103, 27), rgb(58, 168, 82))
   }
   #imgprofile{
     width: 100px;
