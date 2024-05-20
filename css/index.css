@@ -94,7 +94,7 @@ background-color: rgb(136, 127, 255);
 
 /*footer*/
 .border-light{
-    width: 1340px;
+    width: 118%;
    padding-right: 50px;
    
    margin-left: -65px;
@@ -106,7 +106,7 @@ background-color: rgb(136, 127, 255);
 }
 
 .border-light-subtle{
-    width: 1340px;
+    width: 118%;
     margin-left: -65px;
         height: 110px;
 
