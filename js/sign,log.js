@@ -59,7 +59,7 @@ form1.addEventListener('submit', function(event) {
     }
   }
 
-  
+  .
   alert('Invalid email or password.');}
 );
 
